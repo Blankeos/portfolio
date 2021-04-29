@@ -5,6 +5,7 @@ import "./App.css";
 import Typical from "react-typical";
 
 import { SiUnity } from "react-icons/si";
+import { FaGit, FaGithub, FaInstagram } from "react-icons/fa";
 
 import img from "./imgs/profilepic.png";
 
@@ -36,8 +37,26 @@ function App() {
             ]}
           />
         </p>
+        <p className="pt-8 text-sm max-w-lg px-6">
+          I enjoy building web apps using{" "}
+          <b className="text-primary">TailwindCSS</b> and{" "}
+          <b className="text-primary">React</b>. I'm also a student at West
+          Visayas State University studying Computer Science.
+        </p>
       </div>
       <Projects />
+      <footer className="h-28 bg-gray-100 flex flex-col space-y-2 p-4 items-center justify-center text-gray-600 text-sm">
+        <p className="text-xs">Connect with me!</p>
+        <div className="flex space-x-4">
+          <a href="https://github.com/Blankeos" target="_blank">
+            <FaGithub className="text-primary" size="1.5em" />
+          </a>
+          <a href="https://www.instagram.com/taleoncarlo/" target="_blank">
+            <FaInstagram className="text-primary" size="1.5em" />
+          </a>
+        </div>
+        <p>2021 © Carlo Taleon. All rights reserved.</p>
+      </footer>
     </div>
   );
 }

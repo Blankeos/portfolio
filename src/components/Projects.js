@@ -25,6 +25,13 @@ const Projects = () => {
             icon={<FaGooglePlay />}
           />
           <ProjectCard
+            link="https://www.facebook.com/digikattstudios"
+            label="Highway Blade"
+            description="A hack and slash mobile game that my friends and I are developing at Digikatt Studios."
+            buttonLabel="Go to Digikatt Studios"
+            imgurl="https://raw.githubusercontent.com/Blankeos/portfolio/master/src/imgs/axelanimated.gif"
+          />
+          <ProjectCard
             link="https://cafely-vercel-test-blankeos.vercel.app/login"
             label="Cafe.ly"
             description="A product review website for coffee for my Software Engineering class. It's still in progress but it has working auth with Firebase."
