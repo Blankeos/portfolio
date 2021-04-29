@@ -17,7 +17,7 @@ function App() {
       <div className="mt-20 flex flex-col items-center space-y-2">
         <img className="w-28 h-28 rounded-lg m-4" src={img} />
         <h1 className="text-3xl">
-          Hi, I'm <b className="text-primary">Carlo Taleon</b>
+          👋 Hi, I'm <b className="text-primary">Carlo Taleon</b>
         </h1>
         <p className="text-sm">
           I'm a{" "}
@@ -38,7 +38,7 @@ function App() {
           />
         </p>
         <p className="pt-8 text-sm max-w-lg px-6">
-          I enjoy building web apps using{" "}
+          I make games during my free time and I enjoy building web apps using{" "}
           <b className="text-primary">TailwindCSS</b> and{" "}
           <b className="text-primary">React</b>. I'm also a student at West
           Visayas State University studying Computer Science.

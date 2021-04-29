@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
       <img className="select-none transform translate-y-1" src={waveSVG} />
-      <div className="bg-primary pb-32">
+      <div className="bg-primary pb-28 rounded-b-3xl shadow-lg">
         <div className="flex flex-col items-center space-y-8">
           <h2 className="text-2xl mt-5 text-white font-bold">My Projects</h2>
         </div>
