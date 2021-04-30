@@ -17,6 +17,7 @@ import {
   SiReact,
   SiNodeDotJs,
   SiMongodb,
+  SiFirebase,
 } from "react-icons/si";
 import { FaGithub, FaInstagram } from "react-icons/fa";
 
@@ -111,7 +112,7 @@ function App() {
       {/* Skills*/}
       <div className="mt-8 flex flex-col items-center justify-center space-y-5">
         <h2 className="font-bold text-2xl text-gray-700">Skills</h2>
-        <div className="flex flex-row space-x-5">
+        <div className="grid grid-cols-3 sm:grid-flow-col gap-5">
           <Tippy
             animation="scale"
             inertia={true}
@@ -150,6 +151,16 @@ function App() {
           >
             <div>
               <SiMongodb size="2em" />
+            </div>
+          </Tippy>
+          <Tippy
+            animation="scale"
+            inertia={true}
+            content="Firebase"
+            placement="bottom"
+          >
+            <div>
+              <SiFirebase size="2em" />
             </div>
           </Tippy>
           <Tippy
