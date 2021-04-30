@@ -18,7 +18,7 @@ import {
   SiNodeDotJs,
   SiMongodb,
 } from "react-icons/si";
-import { FaGit, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaInstagram } from "react-icons/fa";
 
 import img from "./imgs/profilepic.png";
 
@@ -38,6 +38,22 @@ function App() {
         // className="bg-black"
         position="bottom-right"
       />
+      <nav className="h-12 w-full">
+        <div className="h-full max-w-4xl mx-auto flex items-center justify-end px-2">
+          <ul className="flex space-x-4">
+            <a href="https://github.com/Blankeos" target="_blank">
+              <li>
+                <FaGithub className="text-primary" size="1.5em" />
+              </li>
+            </a>
+            <a href="https://instagram.com/taleoncarlo" target="_blank">
+              <li>
+                <FaInstagram className="text-primary" size="1.5em" />
+              </li>
+            </a>
+          </ul>
+        </div>
+      </nav>
       <div className="mt-20 flex flex-col items-center space-y-2">
         {/* Header */}
         <img className="w-28 h-28 rounded-lg m-4" src={img} />

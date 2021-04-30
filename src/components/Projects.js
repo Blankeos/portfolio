@@ -2,7 +2,7 @@ import React from "react";
 
 import ProjectCard from "./ProjectCard";
 import { BsThreeDots, BsArrowRight } from "react-icons/bs";
-import { FaGooglePlay } from "react-icons/fa";
+import { FaGooglePlay, FaGithub } from "react-icons/fa";
 
 import waveSVG from "../imgs/wave.svg";
 
@@ -23,6 +23,7 @@ const Projects = () => {
             buttonLabel="Google Play"
             imgurl="https://i.ibb.co/rkMgN7M/chromeleonfeature.png"
             icon={<FaGooglePlay />}
+            btnClass="bg-green-500 text-white"
           />
           <ProjectCard
             link="https://www.facebook.com/digikattstudios"
@@ -30,6 +31,7 @@ const Projects = () => {
             description="A hack and slash mobile game that my friends and I are developing at Digikatt Studios."
             buttonLabel="Go to Digikatt Studios"
             imgurl="https://raw.githubusercontent.com/Blankeos/portfolio/master/src/imgs/axelanimated.gif"
+            btnClass="bg-red-600 text-white"
           />
           <ProjectCard
             link="https://cafely-vercel-test-blankeos.vercel.app/login"
@@ -38,6 +40,8 @@ const Projects = () => {
             buttonLabel="Visit Site"
             imgurl="https://i.ibb.co/MgKwDMz/image.png"
             icon={<BsArrowRight size="1.2em" />}
+            githubLink="https://github.com/Blankeos/cit214-productreviewapp"
+            btnClass="bg-yellow-500 text-white"
           />
           <ProjectCard
             link="https://blankeos.github.io/react-pokemon-search/#/"
@@ -46,6 +50,8 @@ const Projects = () => {
             buttonLabel="Visit Site"
             imgurl="https://i.ibb.co/MP1tsYL/image.png"
             icon={<BsArrowRight size="1.2em" />}
+            githubLink="https://github.com/Blankeos/react-pokemon-search"
+            btnClass="bg-yellow-500 text-white"
           />
         </div>
       </div>
