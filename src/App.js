@@ -1,11 +1,15 @@
 import logo from "./logo.svg";
 import "./index.css";
 import "./App.css";
+import React, { useEffect } from "react";
 
 import Typical from "react-typical";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css"; // optional
 import "tippy.js/animations/scale.css";
+
+import { ToastContainer, toast, Zoom, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import {
   SiUnity,
@@ -21,8 +25,19 @@ import img from "./imgs/profilepic.png";
 import Projects from "./components/Projects";
 
 function App() {
+  useEffect(() => {
+    toast.dark(`Hi! 👋 Welcome to my site!`, {
+      autoClose: 5000,
+    });
+  }, []);
+
   return (
     <div className="App">
+      <ToastContainer
+        // bodyClassName="bg-black"
+        // className="bg-black"
+        position="bottom-right"
+      />
       <div className="mt-20 flex flex-col items-center space-y-2">
         {/* Header */}
         <img className="w-28 h-28 rounded-lg m-4" src={img} />
