@@ -24,6 +24,8 @@ import img from "./imgs/profilepic.png";
 
 import Projects from "./components/Projects";
 
+import resumePDF from "./static/resume.pdf";
+
 function App() {
   useEffect(() => {
     toast.dark(`Hi! 👋 Welcome to my site!`, {
@@ -100,6 +102,12 @@ function App() {
           Computer Science.
         </p>
       </div>
+      <button
+        onClick={() => window.open(resumePDF)}
+        className="px-4 py-2 bg-primary mt-6 text-white rounded shadow-md focus:ring-primary focus:ring-2 focus:outline-none focus:ring-offset-4 transform transition hover:scale-110 active:scale-75 hover:translate-y-0.5"
+      >
+        View Resume
+      </button>
       {/* Skills*/}
       <div className="mt-8 flex flex-col items-center justify-center space-y-5">
         <h2 className="font-bold text-2xl text-gray-700">Skills</h2>

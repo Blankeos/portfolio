@@ -15,7 +15,13 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ["active"],
+      outline: ["active"],
+      backgroundColor: ["active"],
+      textColor: ["active"],
+      borderRadius: ["hover", "focus", "active"],
+    },
   },
   plugins: [],
 };
