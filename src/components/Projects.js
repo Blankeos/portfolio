@@ -17,11 +17,11 @@ const Projects = () => {
 
         <div className="mt-10 mx-auto max-w-xl flex flex-col gap-5 justify-items-center">
           <ProjectCard
-            link="https://cafely.vercel.app/login"
-            label="Cafe.ly"
+            link="https://cafely.vercel.app/"
+            label="Cafe.ly | Full-Stack Coffee Review Site"
             description="A product review website for coffee for my Software Engineering class. It's still in progress but it has working Firebase auth and serverless functions communicating with a Mongo database."
             buttonLabel="Visit cafely.vercel.app"
-            imgurl="https://i.ibb.co/MgKwDMz/image.png"
+            imgurl="https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/meta/preview.jpg"
             icon={<BsArrowRight size="1.2em" />}
             githubLink="https://github.com/Blankeos/cit214-productreviewapp"
             btnClass="bg-yellow-500 text-white"
