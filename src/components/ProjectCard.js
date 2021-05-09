@@ -10,9 +10,9 @@ const ProjectCard = (props) => {
     <>
       <div className="flex flex-col md:flex-row w-full bg-white rounded-lg hover:shadow-xl transition overflow-hidden">
         <a href={props.link} target="_blank">
-          <div className="w-full h-64 md:w-64 md:h-64 overflow-hidden flex-shrink-0">
+          <div className="w-full h-64 md:w-64 md:h-full overflow-hidden flex-shrink-0">
             <div
-              className="w-full h-full flex md:w-64 md:h-64 transform transition hover:scale-110"
+              className="w-full h-full flex transform transition hover:scale-110"
               style={{
                 backgroundImage: `url(${props.imgurl}`,
                 backgroundSize: "cover",
