@@ -1,6 +1,7 @@
 # 🦄 My dum portfolio site
 <img src="https://i.ibb.co/WxV6ZRK/image.png" />
 
+First portfolio for web development. Currently built with Create-React-App and published on Vercel. Will be rebuilding this NextJS in the future.
 ---
 
 # Getting Started with Create React App
